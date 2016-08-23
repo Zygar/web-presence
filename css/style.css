@@ -1,0 +1,63 @@
+/* Andy's site. */
+
+body {
+    font-family: "Input Sans";
+    font-family: "Apercu";
+    background-color: #ffd819;
+}
+
+p {
+    font-family: "Apercu";
+    line-height: 150%
+}
+
+
+.test-box-wrapper {
+    display: flex;
+}
+
+.test-box-big {
+    flex-grow: 5;
+    border: 4px solid #000;
+    border-right-width:2px;
+    position: relative;
+}
+
+.test-2 {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    left: 0;
+}
+
+.test-2 a {
+    flex-basis: 33.34%;
+    display: block;
+    text-align: center;
+    border: 2px solid #000;
+    border-bottom-width:0;
+    border-top-width: 4px;
+    height: 37px;
+    line-height: 37px;
+    color: #000;
+    text-decoration: none
+}
+
+.test-2 a:last-child {
+    border-right-width:0;
+}
+
+.test-2 a:first-child {
+    border-left-width: 0;
+}
+
+.test-box-small {
+    flex-grow: 1;
+    border: 4px solid #000;
+    border-left-width:2px;
+}
+
+.test-box-big, .test-box-small {
+    padding: 20px;
+}
