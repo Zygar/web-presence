@@ -1,19 +1,23 @@
 /* Andy's site. */
+@import url("../fonts/bariol-icons/bariol.css");
 
 body {
-    font-family: "Input Sans";
+    /*font-family: "Input Sans Condensed";*/
     font-family: "Apercu";
     background-color: #ffd819;
 }
 
 p {
-    font-family: "Apercu";
-    line-height: 150%
+    /*font-family: "Input Mono";*/
+    line-height: 160%;
+    font-size: 14px;
+    max-width: 35em;
 }
 
 
 .test-box-wrapper {
     display: flex;
+    width: 100%;
 }
 
 .test-box-big {
@@ -21,6 +25,8 @@ p {
     border: 4px solid #000;
     border-right-width:2px;
     position: relative;
+    background-image: url(http://contract-district.com/wp-content/themes/mcd/img/pattern.png);
+    background-size: 5%;
 }
 
 .test-2 {
@@ -41,7 +47,8 @@ p {
     height: 37px;
     line-height: 37px;
     color: #000;
-    text-decoration: none
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .test-2 a:last-child {
@@ -52,6 +59,11 @@ p {
     border-left-width: 0;
 }
 
+.test-2 a:hover {
+    background-color: #000;
+    color:#ffd819;
+}
+
 .test-box-small {
     flex-grow: 1;
     border: 4px solid #000;
@@ -60,4 +72,20 @@ p {
 
 .test-box-big, .test-box-small {
     padding: 20px;
+}
+
+.three {
+    width:33%;
+    padding: 20px;
+    border: 2px solid black;
+    border-bottom-width: 4px;
+    border-top: none;
+}
+
+.three:first-child {
+    border-left-width:4px;
+}
+
+.three:last-child {
+    border-right-width: 4px;
 }
