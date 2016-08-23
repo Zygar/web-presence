@@ -31,7 +31,9 @@ A place for me...
   - CV (-> LinkedIn)
   - General presence (Twitter, Instagram, etc)
 - Work with me
-  - Fulltime/Part-time
-  - Freelance
-  - Speaking
-  - Coaching
+  - Fulltime/Part-time (hire@andy.town)
+  - Freelance (hire@andy.town)
+  - Speaking (speak@andy.town)
+  - Coaching (mentoring@andy.town)
+
+Stretch goals—stuff about what I'm reading, etc
