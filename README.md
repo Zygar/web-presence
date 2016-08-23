@@ -14,3 +14,24 @@ A place for me...
   - contact details and breadcrumbs. (Google)
   - Social Media descriptors for main pages and more importantly projects (Twitter, FB)
 - Good conventions for structuring and documenting CSS. 
+
+
+## Things I would like to feature on it:
+
+- Projects / Work
+  - Slow Burners / Research Interests (e.g. Mental health, spread of ideas/polarisation, creating serendipitous environments)
+  - Concrete gigs (Twingl, Trailblazer, Clap, Arges, Ethixxx)
+  - Anchor project / "looking for work"
+  - Talks/recordings of talks
+  - Canonical blog posts (that syndicate to Medium)
+- Elevator Pitch / "About Me"
+  - Skills
+  - General Interests 
+  - What I'm up to
+  - CV (-> LinkedIn)
+  - General presence (Twitter, Instagram, etc)
+- Work with me
+  - Fulltime/Part-time
+  - Freelance
+  - Speaking
+  - Coaching
