@@ -14,6 +14,10 @@ A place for me...
   - contact details and breadcrumbs. (Google)
   - Social Media descriptors for main pages and more importantly projects (Twitter, FB)
 - Good conventions for structuring and documenting CSS. 
+  - Try out BEM / OOCSS—maybe SCSS. 
+- Some React or Angular-based modules. I'd love to have...
+  - A basic habit-tracker (that only I can use)
+  - A project activity tracker: I can dump in all my "main" projects and tap them every time I work on them.
 
 
 ## Things I would like to feature on it:
