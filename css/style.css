@@ -1,9 +1,22 @@
 /* Andy's site. */
 * {box-sizing: border-box;}
 body {
-    background-color: #FBCB5E;
+    /*background-color: #FBCB5E;*/
     font-family: "ff-basic-gothic-web-pro", sans-serif;
 }
+
+body {
+    animation: colorchange 60s; 
+    animation-iteration-count:infinite;
+}
+
+@keyframes colorchange
+   {
+     0%   {background: #FBCB5E;}
+     33%  {background: #9AECAE;}
+     66%  {background: #FB8E5E;}
+     100% {background: #FBCB5E;}
+   }
 
 .wrapper {
     /* Style */
