@@ -1,2 +1,116 @@
 /* Andy's site. */
+* {box-sizing: border-box;}
+body {
+    background-color: #FBCB5E;
+    font-family: "ff-basic-gothic-web-pro", sans-serif;
+}
 
+.wrapper {
+    /* Style */
+    border: 3px solid #000;
+
+    /* Layout */
+    margin: 20px;
+    min-height: calc(100vh - 40px);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+@media (min-width: 420px ) {
+    .wrapper {
+        margin: 20px auto;
+    }
+}
+
+header {
+    /* Style */
+    border-bottom: 3px solid #000;
+    
+    /* Layout */
+    flex: 1;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: "franklin-gothic-urw";
+    line-height: 90%;
+    font-weight: 100;
+    margin: 0;
+    font-size: 36px;
+}
+
+.name-wrapper {
+    border-bottom: 3px solid #000;
+    display: flex;
+    align-items: flex-end;
+    flex: 1;
+    padding: 20px;
+}
+
+.bio-wrapper {
+    padding: 20px;
+}
+
+.bio {
+    font-size: 18px;
+    line-height: 130%;
+    margin: 0;
+    max-width: 15em;
+}
+
+nav {
+    /* Layout - sets ratio and flexes contained ul  */
+    flex: 4;
+    display: flex;
+}
+
+
+nav ul {
+    font-size: 18px;
+    /* Resets */
+    margin: 0;
+    padding:0;
+    list-style: none;
+
+    /* Flex children */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 321px) {
+    nav ul {font-size: 14px;}
+}
+
+nav ul li {
+    /* Style */
+    border-bottom:2px solid #000;
+    
+    /* Makes contained A fullheight */
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    /* Style */
+    background-color: rgba(255,255,255,0.2);
+    color: #000;
+    text-decoration: none;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+    /* Vertical aligns the contained text */
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255,255,255,0.4);
+}
